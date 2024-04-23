@@ -1,0 +1,42 @@
+{
+  "name": "api_club",
+  "version": "1.0.0",
+  "description": "basic api using typeorm and sinonjs",
+  "main": "src/bin/server.ts",
+  "scripts": {
+    "start": "./node_modules/typescript/bin/tsc -p . && node ./dist/bin/server.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js ./src/bin/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gary003/api_typeorm_sinon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gary003/api_typeorm_sinon/issues"
+  },
+  "homepage": "https://github.com/gary003/api_typeorm_sinon#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "ip": "^2.0.1",
+    "json-server": "^1.0.0-alpha.23",
+    "mysql": "^2.18.1",
+    "swagger-ui-express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.17",
+    "typescript": "^5.4.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/ip": "^1.1.3",
+    "@types/swagger-ui-express": "^4.1.6",
+    "@types/uuid": "^9.0.8",
+    "nodemon": "^3.1.0",
+    "tsc": "^2.0.4"
+  }
+}

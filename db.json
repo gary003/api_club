@@ -1,0 +1,29 @@
+{
+  "medias": [
+    { "title": "song", "description": "best song of 2018", "mediaURL": "1287.uu.com" },
+    { "title": "video", "description": "video clip of Summer 2018", "mediaURL": "clip.2018.uu.com" },
+    { "title": "video", "description": "video clip of Summer 2019", "mediaURL": "clip.2019.uu.com" },
+    { "title": "video", "description": "video clip of Summer 2020", "mediaURL": "clip.2020.uu.com" },
+    { "title": "video", "description": "video clip of Summer 2021", "mediaURL": "clip.2021.uu.com" }
+  ],
+  "profiles": [
+    {
+      "username": "Marta Gomez",
+      "email": "MG@gmail.com",
+      "description": "Young physician at NYHostipal",
+      "pictureURL": "mg.insta.com"
+    },
+    {
+      "username": "Jean Martin",
+      "email": "jean.M@gmail.com",
+      "description": "Athlete trainig for olympivs",
+      "pictureURL": "jean.olympic.insta.com"
+    },
+    {
+      "username": "Amina Fatou",
+      "email": "AF@gmail.com",
+      "description": "Mayor of PotrVilla",
+      "pictureURL": "AF.insta.com"
+    }
+  ]
+}
